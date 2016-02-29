@@ -39,6 +39,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //test git edit
     if (Style_IsBlackDark) {
         [application setStatusBarStyle:UIStatusBarStyleLightContent];
     }
