@@ -27,7 +27,4 @@
 -(void)setLedDeviceInfo:(LedDeviceInfo*)dev;
 -(void)setNeedSeparator:(BOOL)needshow;
 
-
--(IBAction)btnPowerClick:(id)sender;
-
 @end

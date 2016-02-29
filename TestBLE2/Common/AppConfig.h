@@ -14,14 +14,12 @@
 #import "NSStringWrapper.h"
 #import "UIColor-Expanded.h"
 
-
-//debug
 #define CustomErrorDomain @"zengge.com"
 #define DebugLog(log, ...)  NSLog(log, ## __VA_ARGS__)
 //#define DebugLog(log, ...)
-#define DebugLogT(log, ...) NSLog(log, ## __VA_ARGS__) 
+#define DebugLogT(log, ...) NSLog(log, ## __VA_ARGS__)
 
-//#define SERVER_UPD_PORT  48899
+
 #define NotificationLEDControlsVCtrBasePowerChanged   @"NotificationLEDControlsVCtrBasePowerChanged"
 
 #define MAX_Connection  5
@@ -29,11 +27,7 @@
 #define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
 
 
-#ifdef VER_ChiChin
-    #define AppForChiChin YES
-#else
-    #define AppForChiChin NO
-#endif
+
 
 #define APP_WEB_ADDR @"http://magichue.net/webble/Service/ZJ001.ashx"
 #define APP_WEB_ShareURL @"http://magichue.net/webble/a/"
@@ -128,64 +122,6 @@
 
 #endif
 
-//iOS开发之主题皮肤 http://blog.csdn.net/yanghua_kobe/article/details/9555575
-//暂时不用,以后参考
-#ifdef VER_Style_BlackDark
-
-    //内容
-    #define ContentBgColor [UIColor colorWithHexStringAndroid:@"FF2f2f2f"]
-    #define ContentListBgColor [UIColor colorWithHexStringAndroid:@"FF2f2f2f"]
-    #define ContentListRowBgColor [UIColor colorWithHexStringAndroid:@"FF262626"]   //比上面加一个层次
-
-    #define ContentFontColor [UIColor colorWithHexStringAndroid:@"ffcccccc"]
-    #define ContentFontDarkColor [UIColor colorWithHexStringAndroid:@"ffdddddd"]
-    #define ContentDetailColor [UIColor colorWithHexStringAndroid:@"ffaaaaaa"]
-    #define ContentFontLightColor [UIColor colorWithHexStringAndroid:@"ff5BBD2B"]
-    #define ContentShadowColor [UIColor colorWithHexStringAndroid:@"FF000000"]
-
-    //<!-- 头部 -->
-    #define HeaderBg [UIColor colorWithHexStringAndroid:@"ff141414"]  //Android=050505
-    #define HeaderFontColor [UIColor colorWithHexStringAndroid:@"ffcccccc"]
-    #define HeaderFontDarkColor [UIColor colorWithHexStringAndroid:@"FFdddddd"]
-    #define HearderShadowColor [UIColor colorWithHexStringAndroid:@"FF000000"]
-
-
-    //底部 -->
-    #define BottomBgColor [UIColor colorWithHexStringAndroid :@"ff141414"]  //Android=050505
-    #define BottomFontColor [UIColor colorWithHexStringAndroid:@"ffcccccc"]   //
-    #define BottomShadowColor [UIColor colorWithHexStringAndroid:@"FF000000"]
-
-    #define BottomFontDarkColor [UIColor colorWithHexStringAndroid:@"ffdddddd"]
-    #define BottomFontTab [UIColor colorWithHexStringAndroid:@"ffcccccc"]
-
-
-    //<!-- 分割线 -->
-    #define LineDivider [UIColor colorWithHexStringAndroid:@"FF686868"]
-    #define LineDividerTabHost [UIColor colorWithHexStringAndroid:@"ff545353"]
-    #define LineLightDivider [UIColor colorWithHexStringAndroid:@"ff5BBD2B"]   //亮色的
-
-
-    //button
-    #define ButtonBg [UIColor colorWithHexStringAndroid:@"ff686868"]
-    #define ButtonFontColor [UIColor colorWithHexStringAndroid:@"ffcccccc"]
-    #define ButtonFontLightColor [UIColor colorWithHexStringAndroid:@"ff5BBD2B"]
-
-    //pupo弹出框样式
-    #define PopupMaskBg [UIColor colorWithHexStringAndroid:@"B2000000"]
-    #define PopupBorder [UIColor colorWithHexStringAndroid:@"FF808080"]
-    #define PopupContentBg [UIColor colorWithHexStringAndroid:@"FF2f2f2f"]
-
-    //其他样式
-    #define WeekFontOnColor [UIColor colorWithHexStringAndroid:@"ffdddddd"]    //ff000000
-    #define WeekFontOFFColor [UIColor colorWithHexStringAndroid:@"ff525252"]   //ff6c6c6c
-    #define Style_DatePickerBg [UIColor colorWithHexStringAndroid:@"FFb1b1b1"] 
-
-    #define Style_ShowBgImageForCustomColor NO
-    #define Style_IsBlackDark YES
-    //注意勾选图片文件加编译包含的内容
-
-#else
-
     //内容
     #define ContentBgColor [UIColor colorWithHexStringAndroid:@"FFffffff"]       //Android=FFffffff
     #define ContentListBgColor [UIColor colorWithHexStringAndroid:@"FFefeff4"]      //列表背景颜色(Timer用到)
@@ -237,8 +173,6 @@
     #define Style_ShowBgImageForCustomColor YES
     #define Style_IsBlackDark NO
     //注意勾选图片文件加编译包含的内容
-
-#endif
 
 
 
