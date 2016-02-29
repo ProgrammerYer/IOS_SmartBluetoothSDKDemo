@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15C50" minimumToolsVersion="Xcode 4.1">
+    <entity name="CDCustomMode" representedClassName="CDCustomMode" syncable="YES">
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="runModeType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="speed" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uniID" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="CDGroup" representedClassName="CDGroup" syncable="YES">
+        <attribute name="deviceType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isExpanded" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="uniID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDLedDeviceInfo" representedClassName="CDLedDeviceInfo" syncable="YES">
+        <attribute name="deviceName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupUniID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levVersionNum" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="moduleID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDModeColorItem" representedClassName="CDModeColorItem" syncable="YES">
+        <attribute name="colorString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="csModeUniID" attributeType="String" syncable="YES"/>
+        <attribute name="itemNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uniID" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="CDScene" representedClassName="CDScene" syncable="YES">
+        <attribute name="createDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="defColorString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sceneImageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sceneName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDSceneItem" representedClassName="CDSceneItem" syncable="YES">
+        <attribute name="colorPointX" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="colorPointY" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="colorString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colorType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="coolBrightness" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="deviceUniID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupUniID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sceneUniID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="warmBrightness" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="CDTimer" representedClassName="CDTimer" syncable="YES">
+        <attribute name="deviceUniID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hour" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isTurnON" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="minute" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uniID" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="CDTimerDetailItem" representedClassName="CDTimerDetailItem" syncable="YES">
+        <attribute name="day" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="deviceUniID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enableTimer" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hour" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mintue" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="modeValue" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="powerON" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sec" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uniID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="value1" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="value2" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="value3" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="value4" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="week" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="yearFrom2000" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="WDGroup" representedClassName="WDGroup" syncable="YES">
+        <attribute name="deviceType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isExpanded" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="uniID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WDLedDeviceInfo" representedClassName="WDLedDeviceInfo" syncable="YES">
+        <attribute name="deviceName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupUniID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levVersionNum" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="moduleID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDCustomMode" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="CDGroup" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="CDLedDeviceInfo" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="CDModeColorItem" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="CDScene" positionX="9" positionY="153" width="128" height="120"/>
+        <element name="CDSceneItem" positionX="18" positionY="162" width="128" height="195"/>
+        <element name="CDTimer" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="CDTimerDetailItem" positionX="9" positionY="63" width="128" height="285"/>
+        <element name="WDGroup" positionX="27" positionY="171" width="128" height="120"/>
+        <element name="WDLedDeviceInfo" positionX="45" positionY="180" width="128" height="150"/>
+    </elements>
+</model>

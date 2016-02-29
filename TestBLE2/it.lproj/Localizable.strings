@@ -1,0 +1,275 @@
+/* 
+  Localizable.strings
+  LedWifi
+
+  Created by luoke on 13-1-30.
+
+*/
+//公共的
+"Cancel"="Cancella";
+"Save"="Salva";
+"Delete"="Elimina";
+"Back"="Indietro";
+"OK"="OK";
+"Rename"="Rinomina";
+"Brightness"="Luminosità";
+"Note"="Note";
+"str_No"="No";
+"str_Yes"="Si";
+"Loading"="Caricamento";
+"Speed"="Velocità";
+"Confirm"="Conferma";
+"SAVE_SUCCESSFUL"="Salvato con successo!";
+"ON"="On";
+"OFF"="Off";
+"Modify"="Modifica";
+"Send"="Invia";
+
+//DeviceListVCtlrler
+"LIST_Title"="Lista dispositivi";
+"LIST_ALL_ON"="Tutto On";
+"LIST_ALL_OFF"="Tutto Off";
+"LIST_ADD_GROUP"="Aggiungi Gruppo";
+"LIST_New_device_Title"="Nuovo dispositivo";
+"LIST_Add_Device_Title"="Aggiungi dispositivo";
+"LIST_Ungrouped_Devices"="Sciogli gruppo dispositivi";
+"LIST_repower_ON_1minutes_Note"="Sconnettete il dispositivo dalla presa, ricollegatelo ed attendete un minuto.";
+"LIST_repower_ON_1minutes_Title"="Operazione non completata con successo";
+
+"LIST_Add_device_failed_Title"="Impossibile aggiungere nuovo dispositivo";
+"LIST_not_match_Note"="Il tipo di dispositivo non corrisponde!";
+"LIST_Add_reset_try_again"="Impossibile trovare il dispositivo. Per cortesia resettate il dispositivo e provate di nuovo.";
+"LIST_DeleteFrom_Group"="Elimina da questo gruppo";
+"LIST_Move_Group"="Muovi nel gruppo...";
+"LIST_Add_To_Group"="Aggiungilo al gruppo...";
+"LIST_Delete_Group"="Cancella gruppo";
+"LIST_Operation_failed"="Operazione fallita!";
+"LIST_Cannot_add_to_group"="Impossibile aggiungerlo a questo gruppo!";
+"LIST_Cannot_add_to_group_Title"="Il gruppo '{GroupName}' contiente già altri tipi di dispositivi.";
+"LIST_Add_Group"="Aggiungi gruppo";
+"LIST_Group_name"="Nome gruppo";
+"LIST_Device_rename"="Rinomina dispositivo";
+"LIST_Type_Device_rename"="Inserisci nome dispositivo.";
+"LIST_Rename_group_Title"="Rinomina gruppo";
+"LIST_Rename_group_Note"="Inserisci nome gruppo";
+
+"LIST_Add_new_Device_Title"="Aggiungi nuovo dispositivo";
+"LIST_Add_new_Device_Note"="Inserisci nome dispositivo";
+
+"LIST_Load_status_failed"="mpossibile caricare lo stato del dispositivo!";
+"LIST_Connecting_failed"="Connessione fallita";
+"LIST_Connecting_failed_Note"="Riprova oppure riavvia il dispositivo.";
+"LIST_No_devices"="Nessun dispositivo";
+"LIST_No_devices_Note"="Premere a lungo l'icona del dispositivo da associare a questo gruppo!";
+"LIST_Turn_Failed_Try"="Accensione/spegnimento fallito, riprovare!";
+"LIST_Cannot_on_MaxConection"="Impossibile accendere tutto contemporaneamente se si utilizza meno di %d dispositivi, per cortesia utilizzate il pulsante di alimentazione di ciascun dispositivo.";
+"LIST_Cannot_off_MaxConection"="Impossibile spegnere tutto contemporaneamente se si utilizza meno di %d dispositivi, per cortesia utilizzate il pulsante di alimentazione di ciascun dispositivo.";
+"LIST_GROUP_d_device"="%d dispositivo/i";
+
+
+//Tab Items
+"TAB_RGB_COLORS"="Colori";
+"TAB_RGB_WARM"="Calore";
+"TAB_RGB_FUNCTIONS"="Funzioni";
+"TAB_RGB_MUSIC"="Musica";
+"TAB_RGB_CUSTOMS"="Personalizzazioni";
+
+"TAB_CCT_CCT"="CCT";
+"TAB_CCT_COOL"="Freddo";
+"TAB_CCT_WARM"="Caldo";
+"TAB_Brightness"="Luminosità";
+
+
+
+///Music Controller
+"Music"="Musica";
+"Rock"="Rock";
+"Normal"="Qualunque";
+"Jazz"="Jazz";
+"Classical"="Classica";
+"Select_music"="Seleziona musica";
+"Pls_SelectMusic"="Si prega di selezionare musica!";
+"Cannot_play_Title"="Non è possibile riprodurre '{SongName}'.";
+"Cannot_play_Note_DRM"="Il brano è protetto da DRM, è necessario aggiornare il file audio con iTunes Plus per convertire i brani. ";
+"Music_About_iTunes_Plus"="About iTunes Plus";
+
+"Music_Cannot_play_type_file_Title"="Impossibile riprodurre {Type} file '{SongName}'(from {URL})";
+"Music_Cannot_play_type_file_Note"="Si prega di provare a riprodurre un altro file oppure di aggiornare iOs all'ultima versione disponibile. (%@)";
+
+"Music_Cannot_play_directly_Title"="Impossibile riprodurre \{SongName}\ (directly from {URL})";
+"Music_Cannot_play_directly_Note_IOS7"="%@,Prova altra musica!";
+"Music_Cannot_play_directly_Note_IOS6"="Si prega di provare a riprodurre un altro file oppure di aggiornare iOs all'ultima versione disponibile. (%@)";
+
+//EditModeListVCtrller
+"Custom_Add_New_mode"="Aggiungi nova modalità";
+"Custom_Apply"="Applica";
+"Custom_DIY_mode"="Modalità fai da te";
+
+//EditModeAddVCtrller,EditModeCell
+"New mode"="Nuova modalità";
+"Name"="Nome";
+"EditModeAddVCtrller_Note"="Premi il pulsante per cambiare colore oppure premilo a lungo per cancellare un colore";
+"Gradual"="Graduale";
+"Jump"="Salta";
+"Strobe"="Stroboscopica";
+"Select_color"="Seleziona colore";
+
+//EditModeEditVCtrller
+"1.Seven color cross fade"="1. Sette colori con dissolvenza incrociata";
+"2.Red gradual change"="2. Rosso con variazione tono graduale";
+"3.Green gradual change"="3. Verde con variazione tono graduale";
+"4.Blue gradual change"="4. Blu con variazione tono graduale";
+"5.Yellow gradual change"="5. Giallo con variazione tono graduale";
+"6.Cyan gradual change"="6. Azzurro con variazione tono graduale";
+"7.Purple gradual change"="7. Viola con variazione tono graduale";
+"8.White gradual chage"="8. Bianco con variazione tono graduale";
+"9.Red Green cross fade"="9. Rosso, Verde dissolvenza incrociata";
+"10.Red blue cross fade"="10. Rosso, Blu dissolvenza incrociata";
+"11.Green blue cross fade"="11. Verde, Blu dissolvenza incrociata";
+"12.Seven color stobe flash"="12. Sette colori luce stroboscopica";
+"13.Red strobe flash"="13. Rosso luce stroboscopica";
+"14.Green strobe flash"="14. Verde luce stroboscopica";
+"15.Blue strobe flash"="15. Blu luce stroboscopica";
+"16.Yellow strobe flash"="16. Giallo luce stroboscopica";
+"17.Cyan strobe flash"="17. Azzurro luce stroboscopica";
+"18.Purple strobe flash"="18. Viola luce stroboscopica";
+"19.White strobe flash"="19. Bianco luce stroboscopica";
+"20.Seven color jumping change"="20. Sette colori con dissolvenza rapida";
+
+
+
+//定时部分
+"TIME_Hour"="Ore";
+"TIME_Minute"="Minuti";
+"TIME_Will_be"="Sarà";
+"TIME_OFF"="Spento";
+"TIME_ON"="Acceso";
+"TIME_Delay_Will_be"="Più tardi sarà";
+"TIME_unSave_Note"="Devi selezionare \"Invia\" per rendere effettive le modifiche. Vuoi salvarle?";
+"TIME_Save_failed_Try"="Salvataggio fallito, prova ancora!";
+"TIME_Delay_Turn_ON_OFF"="Ritardo per Accendere/Spegnere";
+"TIME_Timer_Turn_ON_OFF"="Timer per Accendere/Spegnere";
+"TIME_Timer_Turn_ON_OFF_SubTitle"="(ogni giorno)";
+"TIME_No_timer_added"="Nessun timer impostato";
+"TIME_ON_OFF_later"="Sarà {ON_OFF} tra {HowLong} ";
+"TIME_d_minute"="%d minuti";
+"TIME_d_hours_d_minute"="%d ore %d minuti";
+
+"TIME_Timer_lost_note"="Attenzione:\nPremente 'invia' per rendere effettive le variazioni.\nLa precedente impostazione sarà cancellata 'una volta che avrete spento e riacceso la lampadina dall'interruttore a muro'.";
+
+"TIME_Add_Timer"="Aggiungi Timer";
+"TIME_Clear"="Annulla";
+
+"TIMER_ListTitle"="Timer";
+"TIMER_Current_Time"="Current Device Time";
+"TIMER_Timer_List"="Timer List";
+"TIMER_Add_Timer"="Add Timer...";
+"TIMER_NO_Timer_Note"="You have not added any timer";
+"TIMER_Note"="Note:\nThe timer will be failure when \'physically power OFF the device\',Please start app to synchronization time.";
+"TIMER_Item_Edit"="Modify";
+"TIMER_Item_Delete"="Delete";
+"TIMER_Item_Delete_Ask"="Are you sure you want to delete the timer?";
+"TIMER_EditTitle"="Edit Timer";
+"TIMER_EditTime"="Time";
+"TIMER_EditRepeat"="Repeat";
+"TIMER_EditPower"="ON/OFF";
+"TIMER_Will_Trun_ON"="Will Trun ON";
+"TIMER_Will_Trun_OFF"="Will Trun OFF";
+"TIMER_EditMode"="Mode(Optional)";
+"TIMER_EditMode_Title"="Select Mode";
+"TIMER_RGB_Lable"="RGB:";
+"TIMER_WW_Lable"="WW:";
+"TIMER_Every_Day"="Every day";
+"TIMER_Mo"="Mo";
+"TIMER_Tu"="Tu";
+"TIMER_We"="We";
+"TIMER_Th"="Th";
+"TIMER_Fr"="Fr";
+"TIMER_Sa"="Sa";
+"TIMER_Su"="Su";
+
+"TIMER_Monday"="Monday";
+"TIMER_Tuesday"="Tuesday";
+"TIMER_Wednesday"="Wednesday";
+"TIMER_Thursday"="Thursday";
+"TIMER_Friday"="Friday";
+"TIMER_Saturday"="Saturday";
+"TIMER_Sunday"="Sunday";
+"TIMER_Set_Time"="Set Time";
+"TIMER_Hour"="Hour";
+"TIMER_Mintue"="Mintue";
+"TIMER_Load_timer_failed"="Load timer failed";
+"TIMER_Load_timer_failed_try_again"="Do you want to try again?";
+"TIMER_Warm_White"="Warm White";
+
+
+//帮助画面
+"HELP_App_version"="Versione App";
+"HELP_Title"="Aiuto";
+"HELP_BtnAbout"="About Us";
+
+////////  以下是新的內容
+"RGBVCtrller_DIY_note"="Premere a lungo per personalizzare il colore";
+"TIMER_WarmLight"="Luminosità bianco caldo";
+"TIMER_CoolLight"="Luminosità bianco freddo";
+
+
+"TAB_RGB_MicRecord"="DISCO";
+"MicRecord_Note"="Nota: È possibile fare clic \"casa \" per tornare alla schermata principale del telefono, e riprodurre la musica da qualsiasi app.Then, l'illuminazione ballerà con la musica.";
+"MicRecord_btnDefault"="Predefinito";
+"MicRecord_GainLable"="Sensibilità microfono";
+
+"TAB_RGB_CAMERA"="CAMERA";
+"Camera_Auto"="Auto";
+"Camera_Manually"="Manuale";
+"Camera_TapGetColor"="Colore capture";
+
+"TabView_Help_slide_more_fun"="Scorrere verso sinistra o destra per godere di più funzioni.";
+"TabView_Help_mark_close"="(Selezionare per continuare)";
+
+///////////////--------
+"TAB_CCT_SCENCE"="SCENA";
+"ImagePicker_TakePhoto"="Fare foto";
+"ImagePicker_FromPhotoLibrary"="Seleziona immagine";
+
+"LIST_Cannot_add_to_group_diff"="Questo gruppo contiene le lampadine di versioni diverse. Alcune nuove funzioni non saranno disponibili.";
+//分享功能不需要翻译
+"EditModeCell_Share"="Share";
+"Share_SaveSucces"="Save succeed for share data";
+"Share_Title"="A share from \"Flux Bluetooth\"";
+"Share_NoNetWork"="Network unavailable.Check network connection and try again.";
+
+"TIMER_Disable"="Disattivare";
+"TIMER_Enable"="Abilitato";
+
+"TIMER_SUN_Title_Normal"="Normale";
+"TIMER_SUN_Title_Sunrise"="Timer per Alba";
+"TIMER_SUN_Title_Sunset"="Timer per Sunset";
+"TIMER_SUN_Sunrise"="Alba";
+"TIMER_SUN_Sunset"="Sunset";
+"TIMER_SUN_Duration"="Duration";
+"TIMER_SUN_StartTime"="Ora di inizio";
+"TIMER_SUN_FromTo"="From {StartTime} to {EndTime}";
+"TIMER_SUN_days"="giorni";
+"TIMER_SUN_hours"="orario";
+"TIMER_SUN_minute"="minuto";
+"TIMER_SUN_seconds"="secondi";
+"TIMER_SUN_StartLuminance"="luminosità Beginning";
+"TIMER_SUN_EndLuminance"="luminosità Ending";
+
+"GROUP_FullNote"="Group '{GroupName}' is full,Each group can contain maximum {COUNT} devices.";
+
+
+// 情景模式----------
+
+"Custom_Scene_One"="Coral";
+"Custom_Scene_Two"="Al tramonto";
+"Custom_Scene_Three"="Prati";
+"Scene_NewScene"="Nuova scena";
+"Scene_Edite"="Editore";
+"Scene_Rename"="Rinominare";
+"Scene_Delete"="Cancellare";
+"Scene_SceneName"="scena nome";
+"Scene_Cancel"="Annullare";
+"Scene_Save"="La conservazione";
+"Scene_SplitGroup"="divisione gruppo";

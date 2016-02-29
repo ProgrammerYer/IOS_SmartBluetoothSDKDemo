@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UITableViewCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="193" id="6" customClass="DeviceCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6" id="tt5-H1-PuG">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVM-xc-9SB" userLabel="line">
+                        <rect key="frame" x="18" y="57" width="294" height="1"/>
+                        <color key="backgroundColor" red="0.89411771299999998" green="0.90196084980000002" blue="0.90980398650000005" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="GOW-NK-XY2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r8D-Y2-8R7" userLabel="viewCtr">
+                        <rect key="frame" x="18" y="8" width="294" height="44"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="icon_led_Brightness.png" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                                <rect key="frame" x="0.0" y="2" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5sk-zx-TiQ"/>
+                                    <constraint firstAttribute="width" constant="40" id="AhO-dL-vNN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Banane of Annamac pricsdfsd" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3">
+                                <rect key="frame" x="48" y="0.0" width="232" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="a7U-GD-dQJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="End at: 2012-01-1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="12">
+                                <rect key="frame" x="48" y="25" width="232" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="12" firstAttribute="leading" secondItem="5" secondAttribute="trailing" constant="8" id="3iO-2h-Ftp"/>
+                            <constraint firstItem="3" firstAttribute="width" secondItem="12" secondAttribute="width" id="Ay4-Zv-SNN"/>
+                            <constraint firstItem="12" firstAttribute="top" secondItem="3" secondAttribute="bottom" id="Czf-AN-JT0"/>
+                            <constraint firstItem="3" firstAttribute="top" secondItem="r8D-Y2-8R7" secondAttribute="top" id="Kx0-Xh-hr4"/>
+                            <constraint firstItem="5" firstAttribute="leading" secondItem="r8D-Y2-8R7" secondAttribute="leading" id="R6O-PU-B4I"/>
+                            <constraint firstItem="3" firstAttribute="leading" secondItem="5" secondAttribute="trailing" constant="8" id="T3N-wv-00U"/>
+                            <constraint firstAttribute="height" constant="44" id="UaM-bw-Smp"/>
+                            <constraint firstAttribute="centerY" secondItem="5" secondAttribute="centerY" id="dA0-bw-VN3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="r8D-Y2-8R7" firstAttribute="leading" secondItem="tt5-H1-PuG" secondAttribute="leadingMargin" constant="10" id="4CB-Of-3oC"/>
+                    <constraint firstItem="r8D-Y2-8R7" firstAttribute="top" secondItem="tt5-H1-PuG" secondAttribute="topMargin" id="EyD-U4-zvj"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fVM-xc-9SB" secondAttribute="trailing" id="JY7-bT-3aZ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="r8D-Y2-8R7" secondAttribute="trailing" id="T1N-x6-fMf"/>
+                    <constraint firstItem="fVM-xc-9SB" firstAttribute="top" secondItem="r8D-Y2-8R7" secondAttribute="bottom" constant="5" id="dUS-2g-GeQ"/>
+                    <constraint firstItem="fVM-xc-9SB" firstAttribute="leading" secondItem="tt5-H1-PuG" secondAttribute="leadingMargin" constant="10" id="fk0-Id-DGG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="_lblLine" destination="fVM-xc-9SB" id="IoG-ie-HVa"/>
+                <outlet property="imageView_" destination="5" id="asL-3n-zHM"/>
+                <outlet property="lblDetailInfo_" destination="12" id="8Ff-xz-CHq"/>
+                <outlet property="lblName_" destination="3" id="Nij-t7-gFB"/>
+            </connections>
+            <point key="canvasLocation" x="366" y="332"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_led_Brightness.png" width="180" height="180"/>
+    </resources>
+</document>
