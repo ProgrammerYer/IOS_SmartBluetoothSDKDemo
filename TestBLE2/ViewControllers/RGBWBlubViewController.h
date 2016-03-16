@@ -11,14 +11,14 @@
 
 @interface RGBWBlubViewController : UIViewController
 {
-
 }
+
+
 @property(nonatomic) LEDDeviceType deviceType;
 @property(strong) NSArray *deviceUniIDs;
 @property(readonly,nonatomic) int minDeviceVersion;
 
 
-
-
-
+-(IBAction)btnRedClicked:(id)sender;
+-(IBAction)btnBlueClicked:(id)sender;
 @end
