@@ -26,15 +26,21 @@
 
 }
 
--(IBAction)btnRedClicked:(id)sender
-{
-    [self sendColorCommand:[UIColor redColor]];
-}
 
--(IBAction)btnBlueClicked:(id)sender
-{
-    [self sendColorCommand:[UIColor blueColor]];
-}
+
+
+
+
+
+//-(IBAction)btnRedClicked:(id)sender
+//{
+//    [self sendColorCommand:[UIColor redColor]];
+//}
+//
+//-(IBAction)btnBlueClicked:(id)sender
+//{
+//    [self sendColorCommand:[UIColor blueColor]];
+//}
 
 - (void)viewDidLoad
 {
