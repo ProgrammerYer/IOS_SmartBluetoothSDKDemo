@@ -45,7 +45,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <slider opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="255" id="BnD-BI-nGa">
-                    <rect key="frame" x="6" y="131" width="308" height="31"/>
+                    <rect key="frame" x="13" y="131" width="295" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.99639254750460815" green="0.32677957350316134" blue="1" alpha="0.36728277439024393" colorSpace="calibratedRGB"/>
                     <color key="minimumTrackTintColor" red="0.96651023889999998" green="0.064833909494643349" blue="0.21868249811453247" alpha="1" colorSpace="calibratedRGB"/>
@@ -53,23 +53,15 @@
                     <color key="thumbTintColor" red="1" green="0.18018456599999999" blue="0.20184122139999999" alpha="1" colorSpace="calibratedRGB"/>
                 </slider>
                 <slider opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="255" id="1jz-VH-YVo">
-                    <rect key="frame" x="6" y="205" width="308" height="31"/>
+                    <rect key="frame" x="13" y="205" width="295" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.20419233618932764" green="1" blue="0.20898845757372808" alpha="0.36901132404181186" colorSpace="calibratedRGB"/>
                     <color key="minimumTrackTintColor" red="0.96651023889999998" green="0.064833909489999994" blue="0.21868249810000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="maximumTrackTintColor" white="0.0" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
                     <color key="thumbTintColor" red="1" green="0.18018456599999999" blue="0.20184122139999999" alpha="1" colorSpace="calibratedRGB"/>
                 </slider>
-                <slider opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="255" id="sxB-tX-ord">
-                    <rect key="frame" x="8" y="277" width="308" height="31"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="0.36993684668989546" colorSpace="calibratedRGB"/>
-                    <color key="minimumTrackTintColor" red="0.96651023889999998" green="0.064833909489999994" blue="0.21868249810000001" alpha="1" colorSpace="calibratedRGB"/>
-                    <color key="maximumTrackTintColor" white="0.0" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
-                    <color key="thumbTintColor" red="1" green="0.18018456599999999" blue="0.20184122139999999" alpha="1" colorSpace="calibratedRGB"/>
-                </slider>
                 <slider opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="255" id="DMq-49-SCf">
-                    <rect key="frame" x="8" y="350" width="308" height="31"/>
+                    <rect key="frame" x="13" y="350" width="295" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="1" green="0.89385580162984923" blue="0.056120088082166952" alpha="0.37493194686411152" colorSpace="calibratedRGB"/>
                     <color key="minimumTrackTintColor" red="0.96651023889999998" green="0.064833909489999994" blue="0.21868249810000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -108,6 +100,14 @@
                         <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
+                <slider opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="255" id="sxB-tX-ord">
+                    <rect key="frame" x="13" y="277" width="295" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="0.36993684668989546" colorSpace="calibratedRGB"/>
+                    <color key="minimumTrackTintColor" red="0.96651023889999998" green="0.064833909489999994" blue="0.21868249810000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="maximumTrackTintColor" white="0.0" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                    <color key="thumbTintColor" red="1" green="0.18018456599999999" blue="0.20184122139999999" alpha="1" colorSpace="calibratedRGB"/>
+                </slider>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
